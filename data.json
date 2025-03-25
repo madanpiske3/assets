@@ -1,4 +1,72 @@
-{
-  "firstname": "John",
-  "lastname": "Doe"
-}
+[
+  {
+    "id": 1,
+    "name": "Alice Smith",
+    "age": 30,
+    "city": "New York",
+    "occupation": "Software Engineer"
+  },
+  {
+    "id": 2,
+    "name": "Bob Johnson",
+    "age": 25,
+    "city": "Los Angeles",
+    "occupation": "Graphic Designer"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Williams",
+    "age": 35,
+    "city": "Chicago",
+    "occupation": "Data Scientist"
+  },
+  {
+    "id": 4,
+    "name": "David Brown",
+    "age": 28,
+    "city": "Houston",
+    "occupation": "Web Developer"
+  },
+    {
+    "id": 5,
+    "name": "Eve Davis",
+    "age": 32,
+    "city": "Phoenix",
+    "occupation": "UX Designer"
+  },
+  {
+    "id": 6,
+    "name": "Frank Miller",
+    "age": 29,
+    "city": "Philadelphia",
+    "occupation": "Project Manager"
+  },
+  {
+    "id": 7,
+    "name": "Grace Wilson",
+    "age": 31,
+    "city": "San Antonio",
+    "occupation": "Marketing Specialist"
+  },
+  {
+    "id": 8,
+    "name": "Henry Moore",
+    "age": 27,
+    "city": "San Diego",
+    "occupation": "Sales Representative"
+  },
+  {
+    "id": 9,
+    "name": "Ivy Taylor",
+    "age": 33,
+    "city": "Dallas",
+    "occupation": "Financial Analyst"
+  },
+  {
+    "id": 10,
+    "name": "Jack Anderson",
+    "age": 26,
+    "city": "San Jose",
+    "occupation": "Product Manager"
+  }
+]
