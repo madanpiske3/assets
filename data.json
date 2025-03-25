@@ -45,7 +45,35 @@
     {"id":45, "sanskrit_text": "", "english_text": "", "meaning": "", "notes": "", "explanation": ""},
     {"id":46, "sanskrit_text": "", "english_text": "", "meaning": "", "notes": "", "explanation": ""},
     {"id":47, "sanskrit_text": "", "english_text": "", "meaning": "", "notes": "", "explanation": ""},
-    {"id":48, "sanskrit_text": "", "english_text": "", "meaning": "", "notes": "", "explanation": ""}
+    {"id":48, "sanskrit_text": "", "english_text": "", "meaning": "", "notes": "", "explanation": ""},
+
+
+
+    const DATA_URL = 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/data.json';
+
+const MyComponent = () => {
+    const [data, setData] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    // Function to fetch data from the URL
+    const fetchData = async () => {
+        setLoading(true);
+        try {
+            const response = await fetch(DATA_URL);
+            const json = await response.json();
+            setData(json);
+            console.log(json);
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    // Fetch data on initial render
+    useEffect(() => {
+        fetchData();
+    }, []);
     
 
 
